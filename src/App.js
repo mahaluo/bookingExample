@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import StudentPage from './components/pages/studentPage';
+import Calendar from './components/calendar/calendar';
 
 function App() {
   return (
@@ -17,8 +19,12 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <StudentPage />
+          
         </a>
       </header>
+
+      <Calendar />
     </div>
   );
 }
