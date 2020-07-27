@@ -5,6 +5,7 @@ import timeGridPlugin from '@fullcalendar/timegrid'
 import interactionPlugin from '@fullcalendar/interaction'
 import { INITIAL_EVENTS, createEventId } from './eventUtils'
 import './calendar.css';
+import DemoCarousel from '../carousel';
 
 
 export default class Calendar extends React.Component {
@@ -44,6 +45,18 @@ export default class Calendar extends React.Component {
             */
           />
         </div>
+
+
+            <div className='carousel'>
+
+            <DemoCarousel />
+
+            </div>
+
+       
+
+
+        
       </div>
     )
   }

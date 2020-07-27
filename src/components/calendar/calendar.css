@@ -2,4 +2,12 @@
     width: 60vw;
     height: 60vh;
     margin: auto;
+    margin-top: 10vh;
+}
+
+.carousel {
+    height: 60vh;
+    width: 60vw;
+    margin: auto;
+    margin-top: 10vh;
 }
